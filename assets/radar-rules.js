@@ -11,7 +11,10 @@
             { title: '画师列表', docs: 'https://jrssfeeder.herokuapp.com/shopping.html#furstar-hua-shi-lie-biao', source: ['/'], target: '/furstar/artists' },
         ],
     },
-    'https://www.icac.org.hk': { _name: '廉政公署', '.': [{ title: '新闻公布', docs: 'https://jrssfeeder.herokuapp.com/government.html#xiang-gang-lian-zheng-gong-shu', source: ['/:lang/press/index.html'], target: '/icac/news/:lang' }] },
+    'https://www.icac.org.hk': {
+        _name: '廉政公署',
+        '.': [{ title: '新闻公布', docs: 'https://jrssfeeder.herokuapp.com/government.html#xiang-gang-lian-zheng-gong-shu', source: ['/:lang/press/index.html'], target: '/icac/news/:lang' }],
+    },
     'trow.cc': { _name: 'The Ring of Wonder', '.': [{ title: '首页更新', docs: 'https://jrssfeeder.herokuapp.com/bbs.html#the-ring-of-wonder', source: ['/'], target: '/portal' }] },
     'weibo.com': {
         _name: '微博',
@@ -182,7 +185,10 @@
         digi: [{ title: '数码之家', docs: 'https://jrssfeeder.herokuapp.com/new-media.html#it-zhi-jia', source: '/', target: '/ithome/digi' }],
         next: [{ title: '智能时代', docs: 'https://jrssfeeder.herokuapp.com/new-media.html#it-zhi-jia', source: '/', target: '/ithome/next' }],
     },
-    'govopendata.com': { _name: '新闻联播文字版', cn: [{ title: '新闻联播文字版', docs: 'https://jrssfeeder.herokuapp.com/traditional-media.html#xin-wen-lian-bo-wen-zi-ban', source: '/xinwenlianbo', target: '/xinwenlianbo/index' }] },
+    'govopendata.com': {
+        _name: '新闻联播文字版',
+        cn: [{ title: '新闻联播文字版', docs: 'https://jrssfeeder.herokuapp.com/traditional-media.html#xin-wen-lian-bo-wen-zi-ban', source: '/xinwenlianbo', target: '/xinwenlianbo/index' }],
+    },
     'steampowered.com': { _name: 'Steam', store: [{ title: 'search', docs: 'https://jrssfeeder.herokuapp.com/game.html#steam', source: '/search/', target: (params, url) => `/steam/search/${new URL(url).searchParams}` }] },
     // 'baijingapp.com': { _name: '白鲸出海', www: [{ title: '文章', docs: 'https://jrssfeeder.herokuapp.com/new-media.html#bai-jing-chu-hai', source: '', target: '/baijing' }] },
     'xiaomi.cn': { _name: '小米社区', www: [{ title: '圈子', docs: 'https://jrssfeeder.herokuapp.com/bbs.html#xiao-mi-she-qu', source: '/board/:boardId', target: '/mi/bbs/board/:boardId' }] },
@@ -235,10 +241,18 @@
             { title: '云音乐 - 用户歌单', docs: 'https://jrssfeeder.herokuapp.com/multimedia.html#wang-yi-yun-yin-yue', source: '/m/user', target: (params, url) => `/ncm/playlist/${new URL(url).searchParams.get('id')}` },
             { title: '云音乐 - 歌单歌曲', docs: 'https://jrssfeeder.herokuapp.com/multimedia.html#wang-yi-yun-yin-yue', source: '/m/playlist', target: (params, url) => `/ncm/playlist/${new URL(url).searchParams.get('id')}` },
             { title: '云音乐 - 歌手专辑', docs: 'https://jrssfeeder.herokuapp.com/multimedia.html#wang-yi-yun-yin-yue', source: '/m/album', target: (params, url) => `/ncm/playlist/${new URL(url).searchParams.get('id')}` },
-            { title: '云音乐 - 播单声音', docs: 'https://jrssfeeder.herokuapp.com/multimedia.html#wang-yi-yun-yin-yue', source: ['/m/radio', '/m/djradio'], target: (params, url) => `/ncm/playlist/${new URL(url).searchParams.get('id')}` },
+            {
+                title: '云音乐 - 播单声音',
+                docs: 'https://jrssfeeder.herokuapp.com/multimedia.html#wang-yi-yun-yin-yue',
+                source: ['/m/radio', '/m/djradio'],
+                target: (params, url) => `/ncm/playlist/${new URL(url).searchParams.get('id')}`,
+            },
         ],
     },
-    'suzhou.gov.cn': { _name: '苏州市政府', www: [{ title: '政府新闻', docs: 'https://jrssfeeder.herokuapp.com/government.html#su-zhou-shi-ren-min-zheng-fu', source: '/szsrmzf/:uid/nav_list.shtml', target: '/gov/suzhou/news/:uid' }] },
+    'suzhou.gov.cn': {
+        _name: '苏州市政府',
+        www: [{ title: '政府新闻', docs: 'https://jrssfeeder.herokuapp.com/government.html#su-zhou-shi-ren-min-zheng-fu', source: '/szsrmzf/:uid/nav_list.shtml', target: '/gov/suzhou/news/:uid' }],
+    },
     'mqube.net': {
         _name: 'MQube',
         www: [
@@ -636,7 +650,12 @@
     'nppa.gov.cn': {
         _name: '国家新闻出版署',
         www: [
-            { title: '栏目', docs: 'https://jrssfeeder.herokuapp.com/government.html#guo-jia-xin-wen-chu-ban-shu', source: '/nppa/channels/:channel', target: (params, url) => `/gov/nppa/${/nppa\/channels\/(\d+)\.shtml/.exec(url)[1]}` },
+            {
+                title: '栏目',
+                docs: 'https://jrssfeeder.herokuapp.com/government.html#guo-jia-xin-wen-chu-ban-shu',
+                source: '/nppa/channels/:channel',
+                target: (params, url) => `/gov/nppa/${/nppa\/channels\/(\d+)\.shtml/.exec(url)[1]}`,
+            },
             {
                 title: '内容',
                 docs: 'https://jrssfeeder.herokuapp.com/government.html#guo-jia-xin-wen-chu-ban-shu',
