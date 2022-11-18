@@ -91,7 +91,7 @@ export default {
   },
   computed: {
     demoUrl: function () {
-      return 'https://rsshub.app'+ this.example
+      return 'https://jrssfeeder.herokuapp.com'+ this.example
     }
   }
 }
