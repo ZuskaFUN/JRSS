@@ -1,5 +1,5 @@
 {
-  "name": "rsshub",
+  "name": "JRSS",
   "version": "1.0.0",
   "description": "Make RSS Great Again!",
   "main": "lib/pkg.js",
@@ -33,20 +33,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DIYgod/RSSHub.git"
+    "url": "git+https://github.com/Zuskafu/JRSS.git"
   },
   "keywords": [
-    "RSS"
+    "JRSS"
   ],
   "gitHooks": {
     "pre-commit": "npm run format:staged"
   },
-  "author": "DIYgod",
+  "author": "ZuskaFUN",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DIYgod/RSSHub/issues"
+    "url": "https://github.com/Zuskafu/JRSS/issues"
   },
-  "homepage": "https://github.com/DIYgod/RSSHub#readme",
+  "homepage": "https://github.com/Zuskafu/JRSS#readme",
   "devDependencies": {
     "@napi-rs/pinyin": "1.7.1",
     "@types/koa": "2.13.5",
