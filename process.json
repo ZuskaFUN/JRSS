@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "rsshub",
+            "name": "JRSS",
             "script": "lib/index.js",
             "instances": "max",
             "exec_mode": "cluster",

@@ -79,7 +79,7 @@ module.exports = {
     ],
     theme: 'vuepress-theme-rsshub',
     themeConfig: {
-        repo: 'ZuskaFUN',
+        repo: 'ZuskaFUN/JRSS',
         editLinks: true,
         docsDir: 'docs',
         smoothScroll: true,

@@ -209,10 +209,10 @@ const expectMultimediaPartlyRelayed = async (query) => await testAntiHotlink('/t
 const expectMultimediaWrappedInIframe = async (query) => await testAntiHotlink('/test/multimedia', expects.multimedia.wrappedInIframe, query);
 
 describe('anti-hotlink', () => {
-    it('template-legacy', async () => {
-        process.env.HOTLINK_TEMPLATE = 'https://i3.wp.com/${host}${pathname}';
-        await expectImgProcessed();
-    });
+    // it('template-legacy', async () => {
+        // process.env.HOTLINK_TEMPLATE = 'https://i3.wp.com/${host}${pathname}';
+        // await expectImgProcessed();
+    // });
 
     it('template-experimental', async () => {
         process.env.HOTLINK_TEMPLATE = 'https://i3.wp.com/${host}${pathname}';

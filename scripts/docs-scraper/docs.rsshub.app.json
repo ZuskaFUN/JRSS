@@ -1,12 +1,12 @@
 {
-    "index_uid": "rsshub",
-    "sitemap_urls": ["https://docs.rsshub.app/sitemap.xml"],
-    "start_urls": ["https://docs.rsshub.app"],
+    "index_uid": "jrssfeeder.herokuapp.com",
+    "sitemap_urls": ["https://jrssfeeder.herokuapp.com/sitemap.xml"],
+    "start_urls": ["https://jrssfeeder.herokuapp.com"],
     "selectors": {
         "lvl0": {
             "selector": ".sidebar-heading.open",
             "global": true,
-            "default_value": "路由"
+            "default_value": "YAWA KA"
         },
         "lvl1": ".theme-default-content h1",
         "lvl2": ".theme-default-content h2",
