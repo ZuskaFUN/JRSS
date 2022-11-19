@@ -7600,7 +7600,7 @@
         docs:"https://docs.rsshub.app/multimedia.html#fa-guo-guo-ji-guang-bo-dian-tai-gun-dong-xin-wen",
         source:[ "/" ],
         target:"/rfi/news" } ] },
-  "jrssfeeder.herokuapp.com":{ _name:"JRSS",
+  "jrssfeeder.herokuapp.com":{ _name:"jrss",
     docs:[ { title:"有新路由啦",
         docs:"https://jrssfeeder.herokuapp.com/program-update.html#rsshub",
         source:[ "",

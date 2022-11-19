@@ -13628,7 +13628,7 @@
     ]
   },
   "jrssfeeder.herokuapp.com": {
-    "_name": "JRSS",
+    "_name": "jrss",
     "docs": [
       {
         "title": "有新路由啦",
