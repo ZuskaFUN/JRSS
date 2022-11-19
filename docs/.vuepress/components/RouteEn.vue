@@ -34,7 +34,7 @@ export default {
   props: {
     author: {
       type: String,
-      default: 'DIYgod'
+      default: 'ZuskaFUN'
     },
     path: {
       type: String,

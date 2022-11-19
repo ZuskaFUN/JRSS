@@ -35,7 +35,7 @@ module.exports = [
         link: '/install/',
     },
     {
-        text: 'Support RSSHub',
+        text: 'Support JRSS',
         link: '/support/',
     },
 ];

@@ -1,3 +1,3 @@
-{{ domain_name }}
+{{ jrssfeeder.herokuapp.com }}
 
 reverse_proxy localhost:1200

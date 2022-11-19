@@ -21,7 +21,7 @@ module.exports = {
         },
         '@vuepress/back-to-top': true,
         sitemap: {
-            hostname: 'https://docs.rsshub.app',
+            hostname: 'https://jrssfeeder.herokuapp.com',
         },
         'vuepress-plugin-meilisearch': {
             hostUrl: 'https://meilisearch.rsshub.app',
@@ -33,13 +33,13 @@ module.exports = {
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: 'RSSHub',
-            description: '🍰 万物皆可 RSS',
+            title: 'JRSS',
+            description: 'YAWA KA',
         },
         '/en/': {
             lang: 'en-US',
-            title: 'RSSHub',
-            description: '🍰 Everything is RSSible',
+            title: 'JRSS',
+            description: 'YAWA KA',
         },
     },
     markdown: {
@@ -79,7 +79,7 @@ module.exports = {
     ],
     theme: 'vuepress-theme-rsshub',
     themeConfig: {
-        repo: 'DIYgod/RSSHub',
+        repo: 'ZuskaFUN',
         editLinks: true,
         docsDir: 'docs',
         smoothScroll: true,
