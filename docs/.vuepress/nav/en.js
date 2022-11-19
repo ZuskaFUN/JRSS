@@ -1,7 +1,7 @@
 module.exports = [
     {
         text: 'Guide',
-        link: '/en/',
+        link: '',
     },
     {
         text: 'Join Us',
@@ -9,22 +9,22 @@ module.exports = [
         items: [
             {
                 text: 'Getting Started',
-                link: '/en/joinus/quick-start',
+                link: '/joinus/quick-start',
             },
             {
                 text: 'More details',
                 items: [
                     {
                         text: 'Script Standard',
-                        link: '/en/joinus/script-standard',
+                        link: '/joinus/script-standard',
                     },
                     {
                         text: 'Date Handling',
-                        link: '/en/joinus/pub-date',
+                        link: '/joinus/pub-date',
                     },
                     {
                         text: 'Use Cache',
-                        link: '/en/joinus/use-cache',
+                        link: '/joinus/use-cache',
                     },
                 ],
             },
@@ -32,10 +32,10 @@ module.exports = [
     },
     {
         text: 'Deploy',
-        link: '/en/install/',
+        link: '/install/',
     },
     {
         text: 'Support RSSHub',
-        link: '/en/support/',
+        link: '/support/',
     },
 ];
