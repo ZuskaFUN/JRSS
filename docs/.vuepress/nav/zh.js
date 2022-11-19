@@ -31,11 +31,11 @@ module.exports = [
         ],
     },
     {
-        text: '部署',
+        text: 'JRSS',
         link: '/install/',
     },
     {
-        text: '支持 RSSHub',
+        text: 'JRSS',
         link: '/support/',
     },
 ];
