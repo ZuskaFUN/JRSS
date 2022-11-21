@@ -210,8 +210,8 @@ const expectMultimediaWrappedInIframe = async (query) => await testAntiHotlink('
 
 describe('anti-hotlink', () => {
     // it('template-legacy', async () => {
-        // process.env.HOTLINK_TEMPLATE = 'https://i3.wp.com/${host}${pathname}';
-        // await expectImgProcessed();
+    // process.env.HOTLINK_TEMPLATE = 'https://i3.wp.com/${host}${pathname}';
+    // await expectImgProcessed();
     // });
 
     it('template-experimental', async () => {
