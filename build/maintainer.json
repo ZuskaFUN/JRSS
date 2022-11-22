@@ -4924,6 +4924,7 @@
     "/shanbay/checkin/:id": [],
     "/shanbay/footprints/:category?": [],
     "/facebook/page/:id": [],
+    "/facebook/:id": [],
     "/bihu/activaties/:id": [],
     "/tingdiantz/nanjing": [],
     "/tingdiantz/95598/:province/:city/:district?": [],
